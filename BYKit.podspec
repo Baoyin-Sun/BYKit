@@ -8,10 +8,10 @@
 
 Pod::Spec.new do |s|
   s.name                    = 'BYKit'
-  s.version                 = '0.1.1'
+  s.version                 = '0.1.2'
   s.summary                 = 'A collection of iOS components.'
   s.description             = <<-DESC
-                               A collection of iOS components.
+                               BYKit is a collection of iOS components.
                                DESC
   s.homepage                = 'https://github.com/Baoyin-Sun/BYKit'
   s.license                 = { :type => 'MIT', :file => 'LICENSE' }
