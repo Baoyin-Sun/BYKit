@@ -8,6 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name                    = 'BYKit'
+  s.version                 = '0.1.1'
   s.summary                 = 'A collection of iOS components.'
   s.description             = <<-DESC
                                A collection of iOS components.
@@ -17,7 +18,6 @@ Pod::Spec.new do |s|
   s.author                  = { 'Baoyin-Sun' => '997344374@qq.com' }
   s.source                  = { :git => 'https://github.com/Baoyin-Sun/BYKit.git', :tag => s.version.to_s }
 
-  s.version                 = '0.1.0'
   s.ios.deployment_target   = '10.0'
 
   s.source_files = 'BYKit/Classes/**/*'
