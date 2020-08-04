@@ -22,7 +22,7 @@ pod 'BYKit'
 
 ## Author
 
-Baoyin-Sun, barry.sun@dingtone.me
+Baoyin-Sun, 997344374@qq.com
 
 ## License
 

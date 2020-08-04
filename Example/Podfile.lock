@@ -1,0 +1,16 @@
+PODS:
+  - BYKit (0.1.0)
+
+DEPENDENCIES:
+  - BYKit (from `../`)
+
+EXTERNAL SOURCES:
+  BYKit:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  BYKit: afc0cfa4830be1c7c4330a894f7e543a69cda82b
+
+PODFILE CHECKSUM: 8821bf93df9b705f9ec577201e73871ba484e4e2
+
+COCOAPODS: 1.9.3
