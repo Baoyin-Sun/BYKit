@@ -1,16 +1,43 @@
 PODS:
-  - BYKit (0.1.0)
+  - AFNetworking (4.0.1):
+    - AFNetworking/NSURLSession (= 4.0.1)
+    - AFNetworking/Reachability (= 4.0.1)
+    - AFNetworking/Security (= 4.0.1)
+    - AFNetworking/Serialization (= 4.0.1)
+    - AFNetworking/UIKit (= 4.0.1)
+  - AFNetworking/NSURLSession (4.0.1):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/Reachability (4.0.1)
+  - AFNetworking/Security (4.0.1)
+  - AFNetworking/Serialization (4.0.1)
+  - AFNetworking/UIKit (4.0.1):
+    - AFNetworking/NSURLSession
+  - BYKit (0.1.2)
+  - SDWebImage (5.9.0):
+    - SDWebImage/Core (= 5.9.0)
+  - SDWebImage/Core (5.9.0)
 
 DEPENDENCIES:
+  - AFNetworking
   - BYKit (from `../`)
+  - SDWebImage
+
+SPEC REPOS:
+  trunk:
+    - AFNetworking
+    - SDWebImage
 
 EXTERNAL SOURCES:
   BYKit:
     :path: "../"
 
 SPEC CHECKSUMS:
-  BYKit: 213b1dbc6e3181ae30ecdc8d195c094b3194c070
+  AFNetworking: 7864c38297c79aaca1500c33288e429c3451fdce
+  BYKit: 368fc9afb85deaf45188de84e9e4ebc9a0a829c5
+  SDWebImage: 62ae4a18473520c67b79e9724c31a63599cc9423
 
-PODFILE CHECKSUM: b40086b265299258a5d1f5d6ffac752b31c580a4
+PODFILE CHECKSUM: 3a3201c8c053eb2d0ffbafb95684bd973ccc5a45
 
 COCOAPODS: 1.9.3

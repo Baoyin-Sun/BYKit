@@ -4,6 +4,9 @@ platform :ios, '10.0'
 
 target 'BYKit_Example' do
   pod 'BYKit', :path => '../'
+  
+  pod 'AFNetworking'
+  pod 'SDWebImage'
 
   target 'BYKit_Tests' do
     inherit! :search_paths
